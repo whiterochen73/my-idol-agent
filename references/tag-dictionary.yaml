@@ -1,0 +1,156 @@
+# タグ辞書 — topic_affinity に使用できる推奨タグ一覧
+# バージョン: 1.0
+# キャラセット作成時にこのリストからタグを選ぶと整合性が保たれます。
+# 独自タグも使用可能ですが、他のキャラとの比較がしにくくなります。
+
+# ─────────────────────────────────────────────────────────────
+# hobby_tags — 趣味・特技（topic_affinity.hobby に使用）
+# ─────────────────────────────────────────────────────────────
+hobby_tags:
+  sports:
+    - sports             # スポーツ全般
+    - baseball           # 野球
+    - soccer             # サッカー
+    - basketball         # バスケットボール
+    - tennis             # テニス
+    - swimming           # 水泳
+    - volleyball         # バレーボール
+    - watching-games     # 観戦
+    - running            # ランニング
+    - outdoor-sports     # 野外スポーツ
+
+  food:
+    - cooking            # 料理全般
+    - baking             # お菓子作り・パン
+    - sweets             # 甘いもの全般
+    - eating             # 食べること
+    - food-review        # グルメ・食レポ
+    - cafe               # カフェ巡り
+    - japanese-food      # 和食
+    - ramen              # ラーメン
+
+  entertainment:
+    - anime              # アニメ
+    - manga              # マンガ
+    - games              # ゲーム
+    - movies             # 映画
+    - reading            # 読書
+    - novels             # 小説
+    - light-novels       # ライトノベル
+    - cosplay            # コスプレ
+    - subculture         # サブカルチャー全般
+
+  music:
+    - music              # 音楽全般
+    - singing            # 歌
+    - instruments        # 楽器演奏
+    - composing          # 作曲
+    - live-music         # ライブ・コンサート
+    - classical-music    # クラシック
+
+  art_crafts:
+    - art                # 芸術全般
+    - drawing            # 絵・イラスト
+    - painting           # 絵画
+    - photography        # 写真
+    - fashion            # ファッション
+    - accessories        # アクセサリー・手芸
+    - pottery            # 陶芸
+    - handicrafts        # 手工芸全般
+
+  nature_outdoors:
+    - nature             # 自然全般
+    - gardening          # 園芸
+    - plants             # 植物
+    - mushrooms          # キノコ
+    - animals            # 動物全般
+    - cats               # 猫
+    - dogs               # 犬
+    - outdoor            # アウトドア
+    - camping            # キャンプ
+
+  technology:
+    - technology         # テクノロジー全般
+    - programming        # プログラミング
+    - gadgets            # ガジェット
+    - science            # 科学
+
+  lifestyle:
+    - dance              # ダンス
+    - fitness            # 健康・フィットネス
+    - travel             # 旅行
+    - shopping           # ショッピング
+    - interior           # インテリア
+    - stuffed-animals    # ぬいぐるみ
+    - collecting         # コレクション
+    - history            # 歴史
+    - mythology          # 神話・ファンタジー
+    - gothic             # ゴシック・ダーク系
+    - occult             # オカルト・不思議
+    - astrology          # 占い・星座
+
+# ─────────────────────────────────────────────────────────────
+# personality_tags — 性格タイプ（topic_affinity.personality に使用）
+# ─────────────────────────────────────────────────────────────
+personality_tags:
+  mood:
+    - cheerful           # 明るい
+    - energetic          # 元気・活発
+    - calm               # 落ち着いている
+    - gentle             # 穏やか
+    - cool               # クール
+    - mysterious         # 謎めいている
+    - playful            # 遊び好き
+    - shy                # 恥ずかしがり屋
+    - outgoing           # 社交的
+
+  thinking_style:
+    - logical            # 論理的
+    - emotional          # 感情的・共感的
+    - creative           # 創造的
+    - practical          # 実用的
+    - philosophical      # 哲学的
+    - imaginative        # 想像力豊か
+
+  social_style:
+    - caring             # 面倒見がいい
+    - independent        # 独立心が強い
+    - competitive        # 負けず嫌い
+    - cooperative        # 協調的
+    - straightforward    # 直球・はっきり
+    - teaser             # からかい好き
+    - supportive         # サポート役
+    - leader             # リーダータイプ
+
+# ─────────────────────────────────────────────────────────────
+# expertise_tags — 専門知識（topic_affinity.expertise に使用）
+# ─────────────────────────────────────────────────────────────
+expertise_tags:
+  - baseball-rules       # 野球ルール・戦術
+  - player-stats         # 選手スタッツ・データ
+  - sports-commentary    # スポーツ解説
+  - desserts             # スイーツ・デザート知識
+  - recipes              # レシピ・料理法
+  - manga-history        # マンガの歴史・作品知識
+  - anime-industry       # アニメ業界知識
+  - game-strategy        # ゲーム攻略・戦略
+  - art-history          # 美術史
+  - music-theory         # 音楽理論
+  - fashion-trends       # ファッション・トレンド
+  - plant-biology        # 植物・菌類の知識
+  - psychology           # 心理学
+  - technology-trends    # 技術トレンド
+  - literature           # 文学・読書案内
+  - mythology-lore       # 神話・伝承の知識
+  - history-facts        # 歴史的事実・雑学
+
+# ─────────────────────────────────────────────────────────────
+# response_style_tags — 応答スタイル（Phase 2 で使用予定）
+# ─────────────────────────────────────────────────────────────
+response_style_tags:
+  - support              # 共感・励まし向き
+  - tease                # 軽いイジり・ユーモア向き
+  - explain              # 解説・教える向き
+  - empathize            # 感情に寄り添う向き
+  - challenge            # 議論・反論向き
+  - cheer-up             # 元気づけ向き
